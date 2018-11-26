@@ -131,6 +131,8 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 bohdan = rg.SimpleTurtle('turtle')
 bohdan.pen = rg.Pen('green', 50)
+bohdan.left(135)
+bohdan.speed = 10
 bohdan.go_to(rg.Point(-100, 200))
 ###############################################################################
 #
